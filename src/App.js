@@ -1,8 +1,17 @@
+import { Download, Features, SectionWrapper } from "./components";
+import assets from "./assets";
+
 const App = () => {
   return (
-    <div className="text-3xl font-bold underline">
-      <h1>React Native Showcase</h1>
-    </div>
+    <>
+      <SectionWrapper
+        title="Harrie's store of Nifty NFTs. Start Selling & Growing"
+        description="Buy, store, collect NFTS, exchange & earn crypto. Join 25+ million people using Pronef Marketplace."
+        showBtn
+        mockupImg={assets.homeHero}
+        banner="banner"
+      />
+    </>
   );
 };
 
